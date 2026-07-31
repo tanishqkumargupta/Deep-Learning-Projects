@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prediction</title>
+</head>
+
+<body>
+
+<h2>Student Performance Prediction</h2>
+
+<form method="POST">
+
+Gender
+
+<select name="gender">
+<option>female</option>
+<option>male</option>
+</select>
+
+<br><br>
+
+Race
+
+<select name="race">
+<option>group A</option>
+<option>group B</option>
+<option>group C</option>
+<option>group D</option>
+<option>group E</option>
+</select>
+
+<br><br>
+
+Education
+
+<select name="education">
+<option>bachelor's degree</option>
+<option>some college</option>
+<option>master's degree</option>
+<option>associate's degree</option>
+<option>high school</option>
+<option>some high school</option>
+</select>
+
+<br><br>
+
+Lunch
+
+<select name="lunch">
+<option>standard</option>
+<option>free/reduced</option>
+</select>
+
+<br><br>
+
+Preparation
+
+<select name="prep">
+<option>completed</option>
+<option>none</option>
+</select>
+
+<br><br>
+
+Reading Score
+
+<input type="number" name="reading">
+
+<br><br>
+
+Writing Score
+
+<input type="number" name="writing">
+
+<br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+<h2>{{ prediction_text }}</h2>
+
+</body>
+
+</html>
