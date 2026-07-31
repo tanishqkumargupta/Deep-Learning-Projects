@@ -1,0 +1,82 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# ===========================
+# Model Files
+# ===========================
+artifacts/
+models/
+*.pkl
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# ===========================
+# Datasets
+# ===========================
+*.csv
+*.xlsx
+*.xls
+*.json
+*.zip
+*.tar
+*.gz
+data/
+dataset/
+datasets/
+
+# ===========================
+# Images & Videos
+# ===========================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.mp4
+*.avi
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Build Files
+# ===========================
+build/
+dist/
+*.egg-info/
+
+# ===========================
+# TensorBoard
+# ===========================
+runs/
+tensorboard/
